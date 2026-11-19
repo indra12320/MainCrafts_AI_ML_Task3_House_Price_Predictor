@@ -1,0 +1,13 @@
+TASK 3 CHECKLIST
+1. California Housing dataset loads.
+2. Split is reproducible using random_state=42.
+3. Cross-validation uses five folds.
+4. Six regression models are compared.
+5. GridSearchCV tunes five models.
+6. CV results are saved as CSV.
+7. Train/test gap is documented for overfitting analysis.
+8. Model selection uses CV RMSE from training data.
+9. Hold-out test MAE, RMSE and R² are reported.
+10. Charts and reports are generated.
+11. Best model pipeline is saved with joblib.
+12. Target scale limitation is documented.

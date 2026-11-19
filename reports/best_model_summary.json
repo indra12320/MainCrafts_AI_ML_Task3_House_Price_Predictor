@@ -1,0 +1,15 @@
+{
+  "selected_model": "Gradient Boosting",
+  "selection_method": "Lowest CV RMSE using training data",
+  "best_parameters": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "test_metrics": {
+    "MAE": 0.3483584149113688,
+    "RMSE": 0.5113810648796822,
+    "R2": 0.8004358960753375
+  },
+  "target_scale": "MedHouseVal is in units of $100,000 (1990 USD)"
+}

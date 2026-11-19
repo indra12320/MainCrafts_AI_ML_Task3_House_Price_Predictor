@@ -1,0 +1,17 @@
+MAINCRAFTS TASK 3 - QUICK START
+
+1. Extract this ZIP.
+2. Open the extracted project folder in VS Code.
+3. Terminal > New Terminal, then run these commands one at a time:
+
+py -m venv venv
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python house_price_task3.py
+
+If activation is blocked, use these instead:
+.\venv\Scripts\python.exe -m pip install -r requirements.txt
+.\venv\Scripts\python.exe house_price_task3.py
+
+The California Housing data is downloaded by scikit-learn on first run (internet required).

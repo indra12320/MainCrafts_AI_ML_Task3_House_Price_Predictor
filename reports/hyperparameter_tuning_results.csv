@@ -1,0 +1,7 @@
+Model,Tuned,Best_Params,Best_CV_RMSE,Train_RMSE,Train_R2
+Linear Regression,No (baseline),{},,0.7196757085831575,0.6125511913966952
+Ridge,Yes,"{""model__alpha"": 1}",0.7205090731464324,0.7196757731612126,0.6125511218634558
+Lasso,Yes,"{""model__alpha"": 0.001}",0.7204994018389698,0.7197145127542363,0.6125094085909123
+Decision Tree,Yes,"{""model__max_depth"": null, ""model__min_samples_leaf"": 10}",0.6199038489279687,0.4395895959287585,0.8554442231743611
+Random Forest,Yes,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1, ""model__n_estimators"": 200}",0.5097012179069442,0.18580657934512065,0.9741736627486468
+Gradient Boosting,Yes,"{""model__learning_rate"": 0.1, ""model__max_depth"": 3, ""model__n_estimators"": 200}",0.5046420401862806,0.46842955984536916,0.8358544068105361
